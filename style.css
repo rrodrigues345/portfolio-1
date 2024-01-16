@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+:root {
+  --background: black;
+  --titulo-1:  #BFCFE7;
+  --titulo-2: #525CEB;
+  --titulo-3: #F8E559;
+  --texto: #F8EDFF;
+  /*https://colorhunt.co/palette/3d3b40525cebbfcfe7f8edff*/
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+background-color: var(--background);
+color: var(--texto);
+}
+
+.cabecalho {
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cabecalho-imagem {
+  height: 72px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-menu-item {
+  font-family: 'Sarala', sans-serif; 
+  color: #FFF2E7;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+
+strong {
+  color: var(--titulo-2);
+}
+  
+span{
+    color: var(--titulo-2);
+    border: 1px solid var(--titulo-2);
+    padding: 10px;
+}
+
+.conteudo {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #FFF2E7;
+}
+
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+}
+
+.conteudo-principal-escrito-titulo {
+  color: var(--titulo-1);
+  font-family: 'Krona One', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.conteudo-principal-escrito-paragrafo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.conteudo-principal-escrito-botao {
+  background-color: var(--titulo-2);
+  width: 180px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Krona One', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+.conteudo-principal-imagem {
+  height: 500px;
+  border-radius: 20px;
+}
+
