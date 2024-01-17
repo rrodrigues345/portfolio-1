@@ -86,7 +86,12 @@ span{
 }
 
 .paragrafo-botao {
-  word-spacing: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
 }
 
 .botao {
@@ -98,7 +103,8 @@ span{
   font-weight: 400;
   font-size: 20px;
   text-align: center;
-  color: var(--titulo-2)
+  color: var(--titulo-2);
+  margin: 5px; 
 }
 
 
