@@ -22,31 +22,6 @@ background-color: var(--background);
 color: var(--texto);
 }
 
-.cabecalho {
-  padding: 24px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.cabecalho-imagem {
-  height: 72px;
-}
-
-.cabecalho-menu {
-  display: flex;
-  gap: 32px;
-}
-
-.cabecalho-menu-item {
-  font-family: 'Sarala', sans-serif; 
-  color: #FFF2E7;
-  font-weight: 400;
-  font-size: 18px;
-}
-
-
 strong {
   color: var(--titulo-2);
 }
@@ -110,8 +85,27 @@ span{
   color: black;
 }
 
+.paragrafo-botao {
+  word-spacing: 4px;
+}
+
+.botao {
+  width: 180px;
+  height: 50px;
+  border: 2px solid var(--titulo-2);
+  padding: 10px;
+  font-family: 'Krona One', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: var(--titulo-2)
+}
+
+
 .conteudo-principal-imagem {
   height: 500px;
   border-radius: 20px;
+  margin-right: 40px;
+  margin-top: 40px;
 }
 
